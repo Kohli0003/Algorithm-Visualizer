@@ -1,0 +1,110 @@
+* {
+  background-color: #2a3132;
+}
+.array-container {
+  position: absolute;
+  left: 100px;
+  right: 100px;
+  top: 100px;
+}
+.array-bar {
+  width: 20px;
+  background-color: black;
+  display: inline-block;
+  margin: 0 1px;
+}
+/* SortingVisualizer.css */
+
+/* Basic button styles */
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+button:active {
+  background-color: #3e8e41; /* Active state */
+}
+
+.buttons {
+  margin-top: 650px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Additional styles for individual buttons */
+#merge-sort-button {
+  background-color: #7218c7; /* Green */
+}
+
+#selection-sort-button {
+  background-color: #008cba; /* Blue */
+}
+
+#quick-sort-button {
+  background-color: #f44336; /* Red */
+}
+
+#bubble-sort-button {
+  background-color: #555555; /* Dark Gray */
+}
+/* General styles for the select element */
+select {
+  width: 200px;
+  height: 40px;
+  padding: 5px;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+/* Styles for when the select element is focused */
+select:focus {
+  border-color: #007bff;
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+/* Styles for the options within the select element */
+select option {
+  padding: 5px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Hover effect for options */
+select option:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.range_slider {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+h1 {
+  margin-left: 500px;
+  font-size: 4rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #90afc5;
+}
+#binary-search-btn {
+  background-color: #763626;
+}
